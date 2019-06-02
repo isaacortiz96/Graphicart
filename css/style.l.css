@@ -1,72 +1,69 @@
 body{
 	font-family: Segoe UI;
 	font-size: 14px;
-	color: #000000;
+	color: #FFFFFF;
 }
+
 header{
 	text-align: center;
 	color: #000000;
 	background-color: #000000;
 }
 
-#sec-services{
-	background-color:#FFFFFF;
-	margin: 50px 0 80px;
-	color: #000;
+#sec-foto{
+	background-image: url( "../img/page-corporate-company-team-building-cover-image.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 250px 0;
+	
 }
-#sec-services h2{
-	font-size: 45px;
-	font-weight: 600;
-	color: #000000;
-	margin-bottom: 25px;
-	margin-top: 30px;
+
+#sec-quien{
+	background-color: #000000;
+	padding: 45px 0;
 }
-#sec-services  h4{
+
+#sec-quien h6{
 	font-size: 14px;
 	margin-bottom: 80px;
 	font-weight: 500;
 	text-align: center;
 	margin-top: 20px;
+	color: #FFFFFF;
+}
+
+#sec-quien h2{
+	font-size: 45px;
+	font-weight: 600;
+	color: #FFFFFF;
+	margin-bottom: 25px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+#sec-valores{
+	background-color:#FFFFFF;
+	margin: 50px 0 80px;
+	color: #000;
+}
+#sec-valores h6{
+	font-size: 45px;
+	font-weight: 600;
+	color: #000000;
+	margin-bottom: 25px;
+	margin-top: 30px;
+	text-align: center;
 }
 .texting{
 	margin-bottom: 50px;
 	text-align: center;
 }
-.texto{
-	font-size: 54px;
-	color: #000000;
-	font-weight: 300;
-	margin-bottom: 45px;
-}
-.titulo{
-	font-size: 55px;
-	color: #FFFFFF;
-	text-align: center;
-	margin-bottom: 45px;
-	font-weight: 600;
-}
 
-#sec-values{
-	background-color: #000000;
-	color: #fff;
+#sec-valores .row{
+	align-content: center;
 	text-align: center;
-	padding: 30px 0 80px;
-}
-#sec-values h2{
-	margin-top: 20px;
-	color: #fff;
-	font-weight: 400;
-	margin-bottom: 30px;
-}
-#sec-values h6{
-	margin-bottom: 80px;
-	font-weight: 400;	
-}
-.text{
-	padding-bottom: 60px;
-	font-weight: 700;
-	font-size: 23px;
-	margin-top: 20px;
+	padding: 12px 0;
 }
 footer{
 	text-align: center;

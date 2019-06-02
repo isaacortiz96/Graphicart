@@ -4,9 +4,30 @@ body{
 	color: #000000;
 }
 header{
-	text-align: center;
-	color: #000000;
 	background-color: #000000;
+	text-align: center;
+	color: #000;
+}
+
+#sec-equipos{
+	margin-top: 70px;
+}
+
+#sec-foto{
+	background-image: url( "../img/bs2-600x300.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 250px 0;
+}
+
+#sec-hero{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #000000;
+	padding: 300px 0 100px;
+	margin-top: 20px;
 }
 
 #sec-services{
@@ -67,6 +88,21 @@ header{
 	font-weight: 700;
 	font-size: 23px;
 	margin-top: 20px;
+}
+#sec-equipos{
+	background-color: #fff;
+	font-size: 18px;
+	margin-bottom: 80px;
+	font-weight: 500;
+	text-align: center;
+	margin-top: 20px;
+}
+#sec-equipos h2{
+	color: #000000;
+	text-align: center;
+}
+#sec-equipos h6{
+	text-align: center;
 }
 footer{
 	text-align: center;
